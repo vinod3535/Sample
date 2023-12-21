@@ -12,7 +12,7 @@ public class TC_01 extends Base_Class {
 	@Test
 	public void flipkartTestcase() throws Exception {
 		Flipkart fp = new Flipkart(driver);
-		//String URL =PUTIL.getDataFromProperties("url");
+		
 		fp.clickOnCloseIcon();
 		fp.clickOnSearchbar();
 		fp.enterOnSearchbar();
