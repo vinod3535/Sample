@@ -5,7 +5,9 @@
     <classes>
       <class name="TC_Repo.TC_01">
         <methods>
+          <include name="closeDbConnection"/>
           <include name="flipkartTestcase"/>
+          <include name="closeWindow"/>
           <include name="launchBrowser"/>
           <include name="createDbConnection"/>
         </methods>

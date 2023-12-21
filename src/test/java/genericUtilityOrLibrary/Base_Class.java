@@ -63,16 +63,16 @@ public class Base_Class {
 //		//hp.logout();
 //	}
 //
-//	@AfterClass(alwaysRun = true)
-//	public void closeWindow()
-//	{
-//		//driver.close();
-//		System.out.println("window closed successfully");
-//	}
-//
-//	@AfterSuite(alwaysRun = true)
-//	public void closeDbConnection()
-//	{
-//		System.out.println("DB connection closed successfully");
-//	}
+	@AfterClass(alwaysRun = true)
+	public void closeWindow()
+	{
+		//driver.close();
+		System.out.println("window closed successfully");
+	}
+
+	@AfterSuite(alwaysRun = true)
+	public void closeDbConnection()
+	{
+		System.out.println("DB connection closed successfully");
+	}
 }

@@ -15,8 +15,8 @@ public class TC_01 extends Base_Class {
 		//String URL =PUTIL.getDataFromProperties("url");
 		fp.clickOnCloseIcon();
 		fp.clickOnSearchbar();
+		fp.enterOnSearchbar();
 		fp.clickoniphonre11();
-		fp.selectiphone11();
 		fp.printiphone11();
 		fp.printprice();
 	}
